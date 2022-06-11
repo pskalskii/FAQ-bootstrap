@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.accordion-button {
+  background-color: rgba(231, 234, 236, 0.89);
+}
+
+.accordion-button::after {
+  content: none;
+  margin-right: auto;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.accordion-par {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.color:focus {
+  text-decoration: underline rgba(61, 104, 129, 0.521);
+}
+
+.accordion-paragraph {
+  text-align: center;
+}
+
+.color {
+  color: rgba(61, 104, 129, 0.521);
+}
