@@ -4,6 +4,8 @@
 
 .accordion-button {
   background-color: rgba(231, 234, 236, 0.89);
+  display: block;
+  text-align: center;
 }
 
 .accordion-button::after {
